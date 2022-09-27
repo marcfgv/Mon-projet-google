@@ -1,0 +1,48 @@
+
+body
+{
+	font-family: 'Arimo', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+@import url(https: //fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+/* Tout ce qui a trait à l'entête*/
+header
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px 20px;
+	justify-content: right;
+	flex-direction: row;
+	order: 100;
+
+}
+
+header .right{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header p{
+	margin-right: 10px;
+	color: #787878;
+	cursor: pointer;
+}
+
+html :hover{
+	color: #1999;
+}
+
+div .points{
+	height: 1px;
+	width: 10px;
+}
+
+div .profil{
+	height: 1px;
+	width: 1px;
+}
+
+
+/* Fin de l'entête*/
